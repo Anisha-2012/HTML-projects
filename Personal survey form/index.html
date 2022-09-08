@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="html" href="thankyou.html">
+    <link rel="shortcut icon" href="img/survey.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <div class="header">
+        <form action="no-action">
+            <h2>Personal-Survey</h2>
+            <div class="main">
+                <label class="fff" for="first" required>First Name</label>
+                <input type="text" name="ff" id="first" placeholder="Enter your first name">
+                <label class="mmm" for="middle">Middle Name</label>
+                <input type="text" name="mm" id="middle" placeholder="Enter your middle name">
+                <label class="lll" for="last" required>Last Name</label>
+                <input type="text" name="ll" id="last" placeholder="Enter your last name">
+            </div>
+            <div class="main">
+                <label class="eee" for="email" required>Email</label>
+                <input type="email" name="em" id="email" placeholder="Enter your email">
+                <label class="ppp" for="phone" required>Phone Number</label>
+                <input type="tel" name="ph" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="main">
+                <p class="gg" required>Gender</p>
+                <input class="rdo" type="radio" id="male" name="gender" value="Male">
+                <label class="gender" for="gender">Male</label>
+                <input class="rdo" type="radio" id="female" name="gender" value="Female">
+                <label class="gender" for="female">Female</label>
+                <input class="rdo" type="radio" id="none" name="gender" value="none">
+                <label class="gender" for="none">Prefer not to say</label>
+            </div>
+            <div class="main">
+                <p class="dd" required>Date of Birth
+                    <label class="date" for="age"></label>
+                    <input class="dobb" type="date" name="date" id="dd">
+                </p>
+
+            </div>
+            <div class="main">
+                <label class="ee" for="ethnicity" required>Ethnicity</label>
+                <select id="eth" name="ethnicity">
+                    <option value="1">White</option>
+                    <option value="2">Hispanic or Latino</option>
+                    <option value="3">Black or African American</option>
+                    <option value="4">Native American or American Indian</option>
+                    <option value="5">Asian / Pacific Islander</option>
+                    <option value="6">Other</option>
+                </select>
+
+            </div>
+            <div class="main">
+                <label class="edd" for="educ" required>Education</label>
+                <select id="edu" name="educ">
+                    <option value="1">Nursery school to 8th grade</option>
+                    <option value="2">Some high school, no diploma</option>
+                    <option value="3">High school graduate, diploma or the equivalent</option>
+                    <option value="4">Trade/technical/vocational training</option>
+                    <option value="5">Associate degree</option>
+                    <option value="6">Bachelor’s degree</option>
+                    <option value="7">Master’s degree</option>
+                    <option value="8">Professional degree</option>
+                    <option value="9">Doctorate degree</option>
+                </select>
+
+            </div>
+            <div class="main">
+                <label class="ins" for="ii" required>Institution name</label>
+                <input type="text" name="name" id="ii" placeholder="Enter Institution name">
+
+            </div>
+            <div class="main">
+                <label class="mar" for="marry" required>Marital status</label>
+                <select id="mariage" name="marry">
+                    <option value="1">Single</option>
+                    <option value="2">Married</option>
+                    <option value="3">Prefer not to say</option>
+                </select>
+
+            </div>
+            <div class="main">
+                <label class="emp" for="employment" required>Employment status</label>
+                <select id="empl" name="employment">
+                    <option value="1">Full-time</option>
+                    <option value="2">Part-time</option>
+                    <option value="3">Seeking opportunities</option>
+                    <option value="4">Retired</option>
+                    <option value="5">Prefer not to say</option>
+                </select>
+
+            </div>
+            <div class="main">
+                <p class="lllang" required>Languages known</p>
+                <input class="cbx" type="checkbox" id="l1" name="lang1" value="English">
+                <label class="lang" for="lang1">English</label><br>
+                <input class="cbx" type="checkbox" id="l2" name="lang2" value="Spanish">
+                <label class="lang" for="lang2">Spanish</label><br>
+                <input class="cbx" type="checkbox" id="l3" name="lang3" value="Portugese">
+                <label class="lang" for="lang3">Portugese</label><br>
+                <input class="cbx" type="checkbox" id="l4" name="lang4" value="French">
+                <label class="lang" for="lang4">French</label><br>
+                <input class="cbx" type="checkbox" id="l5" name="lang5" value="Arabic">
+                <label class="lang" for="lang5">Arabic</label><br>
+                <input class="cbx" type="checkbox" id="l6" name="lang6" value="Hindi">
+                <label class="lang" for="lang6">Hindi</label><br>
+                <input class="cbx" type="checkbox" id="l7" name="lang7" value="Other">
+                <label class="lang" for="other1">Other:</label>
+                <input class="cbx" type="text" name="lang7" id="other1">
+            </div>
+            <div class="main">
+                <p class="hob" required>Hobbies</p>
+                <input class="cbx" type="checkbox" id="h1" name="hob1" value="Reading">
+                <label class="hobby" for="hob1">Reading</label><br>
+                <input class="cbx" type="checkbox" id="h2" name="hob2" value="Writing">
+                <label class="hobby" for="hob2">Writing</label><br>
+                <input class="cbx" type="checkbox" id="h3" name="hob3" value="Listening music">
+                <label class="hobby" for="hob3">Listening music</label><br>
+                <input class="cbx" type="checkbox" id="h4" name="hob4" value="Arts and Crafts">
+                <label class="hobby" for="hob4">Arts and Crafts</label><br>
+                <input class="cbx" type="checkbox" id="h5" name="hob4" value="Exploring nature">
+                <label class="hobby" for="hob4">Exploring nature</label><br>
+                <input class="cbx" type="checkbox" id="h6" name="hob5" value="Yoga">
+                <label class="hobby" for="hob5">Yoga</label><br>
+                <input class="cbx" type="checkbox" id="h7" name="hob7" value="Travelling">
+                <label class="hobby" for="hob7">Travelling</label><br>
+                <input class="cbx" type="checkbox" id="h8" name="hob7" value="Gardening">
+                <label class="hobby" for="hob7">Gardening</label><br>
+                <input class="cbx" type="checkbox" id="h9" name="hob8" value="Cooking">
+                <label class="hobby" for="hob8">Cooking</label><br>
+                <input class="cbx" type="checkbox" id="h10" name="hob9" value="Dancing">
+                <label class="hobby" for="hob9">Dancing</label><br>
+                <input class="cbx" type="checkbox" id="h11" name="hob10" value="Playing games">
+                <label class="hobby" for="hob10">Playing games</label><br>
+                <input class="cbx" type="checkbox" id="h12" name="hob11" value="Hiking">
+                <label class="hobby" for="hob11">Hiking</label><br>
+                <input class="cbx" type="checkbox" id="h13" name="hob12" value="Other">
+                <label class="hobby" for="other2">Other: </label>
+                <input class="cbx" type="text" name="hob12" id="other2">
+            </div>
+            <div class="main">
+                <label class="boxx" for="bob" required>Biography</label><br>
+                <div id="bbb">
+                    <textarea id="bob" name="box" rows="10" cols="50">Write something about yourself</textarea>
+                </div>
+
+            </div>
+            <div>
+                <p class="declare" required>I hereby declare that the above particulars of facts and information stated are true,
+                    correct and complete to the best of my belief and knowledge</p>
+
+                <input type="radio" name="declare" id="dddd">
+                <label class="ddd" for="declare">I agree</label>
+            </div>
+
+            <div class="main2">
+                <a href="thankyou.asp">
+                    <input class="submit" type="submit" value="Submit">
+                </a>
+                <input class="reset" type="reset" value="Reset">
+            </div>
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+body{
+    background: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.header{
+    background: url(img/bgnow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border: 3px solid rgb(64, 59, 59);
+    margin: 5% 12%;
+    padding-bottom: 5%;
+    width: 76%;
+    background-color: rgb(238 238 183 / 70%);
+}
+h2{
+    text-align: center;
+    color: #5f5151;
+    text-decoration-line: underline;
+    margin-bottom: 5%;
+}
+.main{
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fff, .mmm, .lll, .eee, .ppp,.gg,.dd, .ee, .edd, .ins, .mar, .emp, .hob, .lang, .boxx{
+    font-size: 25px;
+    font-weight: 500;
+    padding-right: 0.5%;
+    cursor: pointer;
+}
+#first, #middle, #last, #ii{
+    padding: 1%;
+    margin-right: 2%;
+    text-align: center;
+    background-color: rgb(232 237 235);
+    border: 1.6px solid rgb(71, 68, 68);
+}
+.eee{
+    padding-right: 5.2%;
+}
+.ppp{
+    padding-right: 1%;
+}
+#email, #phone, #dd{
+    padding: 1%;
+    width: 20.5%;
+    text-align: center;
+    margin-right: 2.8%;
+    background-color: rgb(232 237 235);
+    border: 1.6px solid rgb(71, 68, 68);
+    
+}
+#dd{
+    margin-left: 2%;
+    font-size: 16px;
+    font-style: oblique;
+}
+.gender{
+    font-size: 20px;
+    margin-bottom:3%;  
+    margin-right: 2%;
+}
+#eth, #edu, #mariage, #empl{
+    margin-left: 5.1%;
+    border: 1px solid black;
+    padding: 1% ;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(219, 226, 223) ;
+    border: 1.6px solid rgb(71, 68, 68);
+}
+#edu{
+    margin-left: 4.4%;
+}
+#ii{
+    margin-left: 1.4%;
+    width: 30.5%;
+}
+#mariage, #empl{
+    margin-left: 2.5%;
+}
+.hobby, .lllang{
+    font-size: 23px;
+}
+.cbx,.rdo,.dobb:hover{
+    cursor:pointer;
+}
+#bbb{
+    margin-top: 3%;
+    margin-left: 1%;
+}
+#other1, #other2{
+    background-color: rgb(232 237 235);
+    border: 1.6px solid rgb(71, 68, 68);
+    text-align: center;
+    padding: 0.3%;
+    width: 18%;
+    margin-left: 0.5%;
+}
+textarea {
+    resize: none;
+    color: black;
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 1%;
+    background-color: rgb(232 237 235);
+    border: 1.6px solid rgb(71, 68, 68);  
+}
+.declare{
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(255 0 0);
+}
+
+#dddd{
+    margin-left: 5%;
+    cursor:pointer;
+}
+.ddd{
+    margin-left: 1%;
+    font-size: 25px;
+    font-weight: 500;
+}
+.main2{
+    margin-top: 3%;
+    padding-left: 30%;
+    padding-right: 35%;
+}
+.submit, .reset{
+    color: black;
+    border: 1.6px solid #837373;
+    padding: 3% 12%;
+    margin-right: 5%;
+    border-radius: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.submit{
+    background-color: rgb(53 188 53);
+}
+.submit:hover{
+    color: white;
+    background: green;
+}
+.reset{
+    background-color: rgb(244, 99, 47);
+}
+.reset:hover{
+    color: white;
+    background: orangered;
+}
