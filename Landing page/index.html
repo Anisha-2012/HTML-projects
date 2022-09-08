@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks-landing page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="https://www.starbucks.in/"><img src="logo.png" class="logo" alt=""></a>
+
+            <ul>
+                <li><a class="btn" href="#">Home</a></li>
+                <li><a class="btn1" href="#">Menu</a></li>
+                <li><a class="btn2" href="#">What's new</a></li>
+                <li><a class="btn3" href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just a Coffee<br>It's <span>Starbucks</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias et, rem reprehenderit est, fuga porro
+                    labore quos corporis placeat maiores libero voluptates, modi corrupti molestias maxime fugit dolorem
+                    vel non unde sunt adipisci Incidunt eveniet veritatis distinctio fuga quis veniam nihil</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="imgg1.jpg" class="starbucks">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img id="i1" src="theme1.jpg"
+                    onclick="imgSlider('imgg1.jpg');changeCircleColor('#017143');changeButtonColor('#05e085')"></li>
+            <!-- <li><img id="i4" src="theme4.jpg" onclick="imgSlider(imgg4)" alt=""></li> -->
+            <li><img id="i2" src="theme2.png"
+                    onclick="imgSlider('imgg2.png');changeCircleColor('#ff7ca1');changeButtonColor('#ff8ead')" alt="">
+            </li>
+            <li><img id="i3" src="theme3.png"
+                    onclick="imgSlider('imgg3.png');changeCircleColor('#d752b1');changeButtonColor('#fc6dd4')" alt="">
+            </li>
+            <!-- <li><img id="i4" src="theme4.png" onclick="imgSlider('imgg4.png');changeCircleColor('#d752b1');changeButtonColor('#fc6dd4')" alt=""></li> -->
+
+        </ul>
+        <ul class="sci">
+            <a href="#">
+                <li><img class="imgs" src="facebook (2).png" alt=""></li>
+            </a>
+            <a href="#">
+                <li><img class="imgs" src="instagram.png" alt=""></li>
+            </a>
+            <a href="#">
+                <li><img class="imgs" src="twitter.png" alt=""></li>
+            </a>
+        </ul>
+    </section>
+</body>
+
+</html>
